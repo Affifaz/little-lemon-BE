@@ -1,0 +1,34 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Little Lemon</title>
+    <link rel="stylesheet" href="{% static 'restaurant/styles.css' %}">
+</head>
+<body>
+    <header>
+        <h1>Little Lemon</h1>
+        <p>A family-owned Mediterranean restaurant, focused on traditional recipes served with a modern twist.</p>
+    </header>
+    <main>
+        <section>
+            <h2>Browse the API</h2>
+            <ul>
+                <li><a href="/restaurant/menu/">Menu</a></li>
+                <li><a href="/restaurant/booking/tables/">Table bookings</a> (log in first)</li>
+                <li><a href="/api-auth/login/?next=/restaurant/booking/tables/">Log in</a></li>
+                <li><a href="/admin/">Admin</a></li>
+            </ul>
+        </section>
+        <section>
+            <h2>Opening hours</h2>
+            <p>Monday to Friday, 2pm to 10pm<br>Saturday, 2pm to 11pm<br>Sunday, 2pm to 9pm</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Little Lemon</p>
+    </footer>
+</body>
+</html>

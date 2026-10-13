@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', serif;
+    color: #333333;
+    background-color: #edefee;
+}
+
+header {
+    padding: 48px 16px;
+    text-align: center;
+    color: #edefee;
+    background-color: #495e57;
+}
+
+header h1 {
+    margin: 0 0 8px;
+    font-size: 3rem;
+    color: #f4ce14;
+}
+
+main {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+h2 {
+    color: #495e57;
+}
+
+a {
+    color: #495e57;
+}
+
+li {
+    line-height: 1.8;
+}
+
+footer {
+    padding: 16px;
+    text-align: center;
+}
